@@ -7,11 +7,15 @@
 <title>Create Location</title>
 </head>
 <body>
-	<form action="" method="">
-		Id:<input type="text" name="id" /> Code:<input type="text" name="code" />
+	<form action="saveLoc" method="post">
+		<pre>
+		Id:<input type="text" name="id" /> Code:<input type="text"
+				name="code" />
 		Name:<input type="text" name="name" /> Type: Urban<input type="radio"
-			name="type" /> Rural<input type="radio" name="type" /> <input
-			type="Submit" value="save" />
+				value="urban" name="type" /> Rural<input type="radio" name="type"
+				value="rural" /> <input type="Submit" value="save" />
+			</pre>
 	</form>
+	${msg}
 </body>
 </html>
