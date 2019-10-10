@@ -9,13 +9,12 @@
 <body>
 	<form action="saveLoc" method="post">
 		<pre>
-		Id:<input type="text" name="id" /> Code:<input type="text"
-				name="code" />
+		Id:<input type="text" name="id" />
+		 Code:<input type="text" name="code" />
 		Name:<input type="text" name="name" /> Type: Urban<input type="radio"
 				value="urban" name="type" /> Rural<input type="radio" name="type"
 				value="rural" /> <input type="Submit" value="save" />
 			</pre>
 	</form>
-	${msg}
 </body>
 </html>
